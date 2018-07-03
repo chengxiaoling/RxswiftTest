@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+target 'RxswiftTest' do
+
+use_frameworks!
+  
+  inhibit_all_warnings!
+
+# Rx
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end
